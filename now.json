@@ -1,0 +1,8 @@
+{
+  "name": "now-v2-mongodb-version-issue",
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "@mongodb-uri"
+  },
+  "builds": [{ "src": "./api/**/index.js", "use": "@now/node" }]
+}
